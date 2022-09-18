@@ -1,0 +1,15 @@
+[package]
+name = "bevy_diagnostic_renet"
+version = "0.1.0"
+edition = "2021"
+categories = ["development-tools::debugging", "development-tools::profiling", "game-development", "network-programming"]
+description = "Bevy game engine plugin for Renet diagnostics "
+exclude = [".github/"]
+keywords = ["bevy", "diagnostic", "renet", "network", "gamedev"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/sagan-software/bevy_diagnostic_renet"
+
+[dependencies]
+bevy = { version = "0.8.1", default-features = false }
+bevy_renet = "0.0.5"
